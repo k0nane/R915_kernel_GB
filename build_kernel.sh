@@ -8,7 +8,7 @@ CWD=$PWD
 
 KERNEL_DIR=$CWD/Kernel
 BUILDS_DIR=~/android/builds
-DEFCONFIG=forte_defconfig
+DEFCONFIG=forte_910_defconfig
 CROSS_COMPILER=/opt/toolchains/arm-2009q3/bin/arm-none-linux-gnueabi-
 THREADS=4
 GENERATE_ZIP=y
