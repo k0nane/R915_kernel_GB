@@ -1,0 +1,28 @@
+./fsr/stl_block.c:1174:		printk("FSR: Registered STL Driver.\n");
+./fsr/OAM/Linux/FSR_OAM_Linux.c:283:        printk("%s Fail : nPtr : NULL\r\n", (char *) __FSR_FUNC__);
+./fsr/OAM/Linux/FSR_OAM_Linux.c:608:    printk(gaStr);
+./fsr/fsr_bench.c:138:				printk("FSR BML: %s transfer error = %x\n", write ? "WRITE" : "READ", ret);
+./fsr/fsr_bench.c:169:				printk("stl: %s transfer error = %x\n", write ? "WRITE" : "READ", ret);
+./fsr/fsr_bench.c:170:				printk("stl: partition id = %d, current sector = %d\n", 
+./fsr/fsr_bench.c:227:		printk("Fail: Can't use major %d\n"
+./fsr/fsr_bench.c:234:		printk("Fail: Can't use minor %d\n"
+./fsr/fsr_bench.c:241:		printk("Fail: Can't use sector number %d\n"
+./fsr/fsr_bench.c:256:		printk("[%d] %s kmalloc FAIL\r\n", __LINE__, __func__);
+./fsr/fsr_bench.c:261:	printk("benchmarking [%s(major=%d) part %d(minor=%d)] with %d sector size\n", 
+./fsr/fsr_bench.c:271:	           	printk(KERN_ERR "BML: open error = %d\n", ret);
+./fsr/fsr_bench.c:278:			printk("FSR_BML_GetVirUnitInfo FAIL : 0x%08X\r\n", ret);
+./fsr/fsr_bench.c:291:				printk("erase error = %x\n", ret);
+./fsr/fsr_bench.c:305:			printk("write: %d.%dMB/s\n",
+./fsr/fsr_bench.c:312:			printk("read: %d.%dMB/s\n",
+./fsr/fsr_bench.c:334:				printk("FSR STL: Device is busy\n");
+./fsr/fsr_bench.c:335:				printk("FSR STL: If you had execute only write benchmark,"
+./fsr/fsr_bench.c:341:				printk("FSR STL: Device is unformatted\n");
+./fsr/fsr_bench.c:346:				printk("FSR STL: Out of device\n");
+./fsr/fsr_bench.c:356:			printk("FSR STL: Ioctl error\n");
+./fsr/fsr_bench.c:357:			printk("FSR STL: If you want to execute only read benchmark,"
+./fsr/fsr_bench.c:368:			printk("write: %d.%03dMB/s\n",
+./fsr/fsr_bench.c:382:			printk("STL: Device is busy\n");
+./fsr/fsr_bench.c:387:			printk("STL: Device is unformatted\n");
+./fsr/fsr_bench.c:392:			printk("STL: Out of device\n");
+./fsr/fsr_bench.c:399:			printk("read: %d.%03dMB/s\n",
+./fsr/bml_block.c:1269:		printk("BML: Registered BML Driver.\n");
