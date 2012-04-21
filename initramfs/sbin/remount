@@ -1,0 +1,21 @@
+#!/sbin/sh
+
+MOUNT="/sbin/busybox mount"
+
+case $1 in
+ro)
+    echo "Enabling read-only access to /"
+    $MOUNT -o remount,ro /
+    echo "Enabling read-only access to /system"
+    $MOUNT -o remount,ro /dev/block/stl10 /system
+  ;;
+rw)
+  echo "Enabling read/write access to /"
+  $MOUNT -o remount,rw / 
+  echo "Enabling read/write access to /system"
+  $MOUNT -o remount,rw /system
+  ;;
+*)
+    echo "Invalid or no input. Try: 'remount rw' or 'remount ro'"
+  ;;
+esac
