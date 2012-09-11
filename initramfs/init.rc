@@ -786,13 +786,6 @@ service DR-deamon /system/bin/drexe
     user root
     group system radio inet net_raw     
 
-# Custom script
-service userscript /system/bin/sh /sbin/userscript.sh
-    user root
-    group system
-    critical
-    oneshot
-
 service zygote /system/bin/app_process -Xzygote /system/bin --zygote --start-system-server
     socket zygote stream 666
     onrestart write /sys/android_power/request_state wake

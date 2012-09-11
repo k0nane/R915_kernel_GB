@@ -1704,9 +1704,3 @@ source "security/Kconfig"
 source "crypto/Kconfig"
 
 source "lib/Kconfig"
-
-config SAMSUNG_PHONE_TTY
-  tristate "Samsung Phone Interface - TTY"
-
-config SAMSUNG_PHONE_SVNET
-  tristate "Samsung Phone Interface - SVN"
